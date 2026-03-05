@@ -1,0 +1,205 @@
+*{
+margin:0;
+padding:0;
+/* box-sizing:border-box; */
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Body */
+
+body{
+background:#f3f1ff;
+line-height:1.6;
+}
+
+/* Header */
+
+header{
+background: linear-gradient(135deg,#667eea,#764ba2);;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+header h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+header p{
+font-size:30px;
+}
+
+/* Navigation */
+
+nav{
+background:#5a67d8;
+text-align:center;
+padding:15px;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 20px;
+font-size:20px;
+font-weight:bold;
+transition:0.5s;
+}
+
+nav a:hover{
+color:black;
+letter-spacing:1px;
+}
+
+/* Sections */
+
+section{
+padding:60px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#1f2a44;
+}
+
+/* About */
+
+.about-container{
+/* background:#ffffff; */
+display:flex;
+align-items:center;
+justify-content: center;
+gap:40px;
+flex-wrap:wrap;
+}
+#about p{
+    font-size: 18px;
+} 
+
+/* education */
+/* Cards */
+
+#education{
+background:#ffffff; 
+    
+}
+.card{
+background:#f3f1ff;
+padding:25px;
+margin:15px auto;
+max-width:500px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+/* Skills Section */
+
+#skills{
+text-align:center;
+}
+
+.skills-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+margin-top:20px;
+}
+
+.skill-tag{
+background:linear-gradient(135deg,#667eea,#764ba2);
+color:white;
+padding:10px 18px;
+border-radius:25px;
+font-size:16px;
+font-weight:bold;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+cursor:pointer;
+}
+
+.skill-tag:hover{
+transform:scale(1.1);
+background:linear-gradient(135deg,#5a67d8,#6b46c1);
+}
+
+/* Certificates Section */
+
+#certificates{
+/* padding:60px 10%; */
+text-align:center;
+background:#ffffff;
+}
+
+.certificate-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+margin-top:10px;
+}
+
+.certificate-card{
+width:250px;
+background:#f3f1ff;
+padding:20px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.certificate-card h3{
+margin-bottom:10px;
+color:#333;
+}
+
+.issuer{
+color:#666;
+font-size:15px;
+}
+
+/* Projects */
+
+.project-container{
+display:flex;
+flex-wrap:wrap;
+gap:25px;
+justify-content:center;
+}
+
+.project-card{
+background:white;
+padding:25px;
+width:260px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+text-align:center;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+
+#contact{
+background:#ffffff;
+text-align:center;
+font-size:18px;
+}
+
+/* Footer */
+
+footer{
+background:#1f2a44;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
