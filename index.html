@@ -1,137 +1,289 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Prakruthi-Portfolio</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Portfolio</title>
+
 <link rel="stylesheet" href="student-portfolio.css">
-<link rel="shortcut icon" href="./icon.webp" type="image/x-icon">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
-<header>
-    <h1>Prakruthi K</h1>
-    <p>BCA Student | Web Developer Intern</p>
-</header>
+<div id="progress-bar"></div>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#certificates">certificates</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">Portfolio</div>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#certificates">Certificates</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
 </nav>
 
-<section id="about" class="about">
-    <div class="about-container">
-        <div>
-        <h2>About Me</h2>
-        <p>
-        Hello! I am Prakruthi K, A BCA student passionate about web development
-        and data analytics. I enjoy creating websites and learning new technologies.
-        </p>
-        </div>
+<!-- HERO -->
 
-    </div>
+<section id="home" class="home">
+
+<div class="home-container">
+
+<div class="home-img">
+<img src="./icon.webp" alt="profile">
+</div>
+
+<div class="home-content">
+
+<h1>Hello, I'm <span>Prakruthi K</span></h1>
+
+<h3>Frontend Developer</h3>
+
+<p>
+I am a passionate web developerIntern who loves creating modern
+and responsive websites using HTML, CSS and JavaScript.
+I enjoy learning new technologies and building creative
+digital experiences.
+</p>
+
+<div class="home-buttons">
+
+<a href="./Resume .pdf" class="btn" download>
+Download Resume
+</a>
+
+<a href="#contact" class="btn-outline">
+Contact Me
+</a>
+
+</div>
+
+<div class="home-social">
+
+<i class="fa-brands fa-github"></i>
+<i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-instagram"></i>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<!-- education -->
-<section id="education">
-<h2>Education</h2>
+<!-- SKILLS -->
 
-<div class="card">
-<h3>BCA</h3>
-<p>Vidya Sanskaar Institute Of Science, Commerce and Management</p>
-</div>
-
-<div class="card">
-<h3>PUC</h3>
-<p>Vidhyadhama PU College</p>
-</div>
-
-<div class="card">
-<h3>SSLC</h3>
-<p>Max Muller Public School</p>
-</div>
-</section>
-
-<!-- skills -->
 <section id="skills">
-<h2>Skills</h2>
-<div class="skills-container">
-<span class="skill-tag">HTML</span>
-<span class="skill-tag">CSS</span>
-<span class="skill-tag">Excel</span>
-<span class="skill-tag">Data Analytics</span>
+
+<h2>My Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill">
+<i class="fa-brands fa-html5"></i>
+<p>HTML</p>
 </div>
+
+<div class="skill">
+<i class="fa-brands fa-css3-alt"></i>
+<p>CSS</p>
+</div>
+
+<div class="skill">
+<i class="fa-brands fa-js"></i>
+<p>JavaScript</p>
+</div>
+
+<div class="skill">
+<i class="fa-brands fa-python"></i>
+<p>Python</p>
+</div>
+
+<div class="skill">
+<i class="fa-brands fa-github"></i>
+<p>GitHub</p>
+</div>
+
+</div>
+
 </section>
 
-<!-- certificates -->
+
+<!-- EDUCATION -->
+
+<section id="education">
+
+<h2>My Education</h2>
+
+<div class="timeline">
+
+<div class="edu-card">
+
+<div class="circle"></div>
+
+<div class="content">
+<h3>Bachelor Degree</h3>
+<p>Vidhya Sanskaar Institute of Science, Commerce and Management</p>
+<span>2023 - Present</span>
+</div>
+
+</div>
+
+<div class="edu-card">
+
+<div class="circle"></div>
+
+<div class="content">
+<h3>Higher Secondary Education</h3>
+<p>Vidhyadhama PU college</p>
+<span>2021 - 2023</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CERTIFICATES -->
+
 <section id="certificates">
 
-<h2>Certificates</h2>
+<h2 class="section-title">Certificates</h2>
 
 <div class="certificate-container">
 
 <div class="certificate-card">
 <h3>MS office Automation With AI</h3>
-<p class="issuer">Issued by: NICT Computer Education</p>
+<p class="platform">NICT Computer Education</p>
+<p>Learned how to use MS Office and automate with AI.</p>
+<span class="year">2024</span>
+<button>View Certificate</button>
 </div>
 
 <div class="certificate-card">
 <h3>Python Full Stack Web Framework</h3>
-<p class="issuer">Issued by: Indian Global Software Solutions</p>
-</div>
-
-<div class="certificate-card">
-<h3>Soft Skill Course</h3>
-<p class="issuer">Issued by: ITC infotech pvt ltd</p>
+<p class="platform">Indian Global Software Solutions</p>
+<p>Covered Python fundamentals, functions.</p>
+<span class="year">2025</span>
+<button>View Certificate</button>
 </div>
 
 <div class="certificate-card">
 <h3>Plantation drive</h3>
-<p class="issuer">Issued by: ITC INFOTECH</p>
+<p class="platform">ITC INFOTECH</p>
+<p>planted 25+ plants.</p>
+<span class="year">2025</span>
+<button>View Certificate</button>
 </div>
 
 <div class="certificate-card">
 <h3>Data Analytics</h3>
-<p class="issuer">Issued by: ITC infotech pvt ltd</p>
+<p class="platform">ITC infotech pvt ltd</p>
+<p>Learned about data analytics and tools of it.</p>
+<span class="year">2025</span>
+<button>View Certificate</button>
+</div>
+
+<div class="certificate-card">
+<h3>Soft Skill Course</h3>
+<p class="platform">ITC infotech pvt ltd</p>
+<p>Learnt how to behave and talk in the proffesional field.</p>
+<span class="year">2025</span>
+<button>View Certificate</button>
 </div>
 
 </div>
 
 </section>
 
-<!-- projects -->
+
+<!-- PROJECTS -->
+
 <section id="projects">
-<h2>Projects</h2>
-<div class="project-container">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects-container">
+
 <div class="project-card">
-<h3>Tourism Website</h3>
-<p>Website showing tourist places using HTML and CSS.</p>
+<div class="terminal-bar">
+<span class="dot red"></span>
+<span class="dot yellow"></span>
+<span class="dot green"></span>
 </div>
-<div class="project-card">
+
+<div class="project-content">
 <h3>Portfolio Website</h3>
-<p>Personal portfolio website for showcasing skills.</p>
+<p class="tech">HTML • CSS • JavaScript</p>
+<p>Personal portfolio website showcasing my skills, projects and certificates.</p>
+
+<div class="project-buttons">
+<a href="#">GitHub</a>
 </div>
 </div>
+</div>
+
+
+<div class="project-card">
+<div class="terminal-bar">
+<span class="dot red"></span>
+<span class="dot yellow"></span>
+<span class="dot green"></span>
+</div>
+
+<div class="project-content">
+<h3>Tours and Travels Website</h3>
+<p class="tech">HTML • CSS • JavaScript</p>
+<p>The Tours and Travels Website to Book and Travel Easily.</p>
+
+<div class="project-buttons">
+<a href="#">GitHub</a>
+</div>
+</div>
+</div>
+
+</div>
+
 </section>
 
-
-
-<!-- contact -->
+<!-- CONTACT -->
 
 <section id="contact">
-<h2>Contact</h2>
 
-<p>Email: prakuprakruthi762@gmail.com </p>
-<p>Phone: 9535716536</p>
+<h2>Contact Me</h2>
+
+<p>Email: prakuprakruthi762@gmail.com</p>
+<p>Phone Number: 9535716536</p>
+
+<div class="socials">
+
+<i class="fa-brands fa-github"></i>
+<i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-instagram"></i>
+
+</div>
 
 </section>
 
-<footer>
-<p>© 2026 Prakruthi Portfolio</p>
-</footer>
+<script src="index.js"></script>
 
 </body>
 </html>
