@@ -1,17 +1,21 @@
-window.addEventListener("scroll", function(){
+// Scroll Progress Bar
 
-let scrollTop =
-document.documentElement.scrollTop;
+window.addEventListener("scroll", function () {
+
+let scrollTop = document.documentElement.scrollTop;
 
 let height =
 document.documentElement.scrollHeight -
 document.documentElement.clientHeight;
 
-let scrolled =
-(scrollTop / height) * 100;
+let scrolled = (scrollTop / height) * 100;
 
-document.getElementById("progress-bar")
-.style.width = scrolled + "%";
+document.getElementById("progress-bar").style.width = scrolled + "%";
+
+});
+
+
+// Certificate button click
 
 document.querySelectorAll(".certificate-card button").forEach(button => {
 
@@ -21,4 +25,9 @@ alert("Certificate link goes here!");
 
 });
 
-});
+
+// Mobile menu toggle
+
+function toggleMenu(){
+document.getElementById("navLinks").classList.toggle("show");
+}
